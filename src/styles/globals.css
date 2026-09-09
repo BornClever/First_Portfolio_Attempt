@@ -248,7 +248,7 @@ html {
 
 /* Custom cursor component styling */
 .custom-cursor {
-  animation: cursor-glow 2s ease-in-out infinite;
+  will-change: transform;
 }
 
 .custom-cursor.loading {
